@@ -12,6 +12,19 @@ body {
     width: 100%;
     height: 100%;
 }
+a {
+    text-decoration: none;
+    color: #C0D23E;
+        -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #E15E32;
+    text-decoration: none;
+    -webkit-transition: color 0.5s; /* Safari */
+    transition: color 0.5s;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -185,6 +198,7 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #A82743;
 }
 
 .service-item {
@@ -230,6 +244,7 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #A82743;
 }
 
 .call-to-action .btn {
