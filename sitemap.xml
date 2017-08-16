@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://index.html/index.html</loc>
+    <lastmod>2017-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://index.html/phone/index.html"/>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 960px)" href="http://index.html/tablet/index.html"/>
+    <image:image>
+      <image:loc>http://index.html/images/branding.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/design.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/90-.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/75-.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/development.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/responsive.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/marketing.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/seo.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/facebook.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/twitter_alt.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://index.html/images/google.png</image:loc>
+    </image:image>
+  </url>
+</urlset>
