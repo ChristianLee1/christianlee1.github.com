@@ -1,4 +1,4 @@
-/*!
+  /*!
  * Start Bootstrap - Stylish Portfolio (http://startbootstrap.com/)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -49,10 +49,11 @@ body {
 /* Custom Button Styles */
 
 .btn-dark {
-    color: #fff;
+    color: black;
     border: none;
     border-radius: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: white;
+    opacity: 0.7;
 }
 
 .btn-dark:hover,
@@ -131,7 +132,7 @@ hr.small {
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
-    
+
 }
 
 .sidebar-nav > .sidebar-brand {
