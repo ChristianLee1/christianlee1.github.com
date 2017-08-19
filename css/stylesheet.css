@@ -67,12 +67,32 @@ html, body {
   position: relative;
 }
 
-.secondary h1{
-  background-color: rgb(255, 255, 255);
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  position: relative;
+.secondary h1 {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  -webkit-transtion: all 0.25s;
+  transition: all 0.25s ;
+  position: absolute;
+  top: 60px; left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.secondary p {
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  margin: 0 auto;
+  display: block;
+  -webkit-transtion: all 0.25s;
+  transition: all 0.25s ;
+  position: absolute;
+  top: 150px; left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 a {
