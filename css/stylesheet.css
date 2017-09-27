@@ -9,13 +9,13 @@
 */
 
 
-
 html, body {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0px;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+
 }
 
 #title {
@@ -30,6 +30,22 @@ html, body {
   margin-top: 20%;
   text-align: center;
   animation: 2s cubic-bezier(.26,1.08,.19,1) expandtitle;
+}
+
+#goldglow {
+  text-shadow: 0px 0px 10px gold;
+}
+
+#pinkglow {
+  text-shadow: 0px 0px 10px #FF3BB7;
+}
+
+#blueglow {
+  text-shadow: 0px 0px 10px #0B486B;
+}
+
+#greenglow {
+  text-shadow: 0px 0px 10px #06C448;
 }
 
 @keyframes expandtitle {
@@ -92,10 +108,30 @@ a,a:link,a:visited {
 #backhome a {
   text-decoration: none;
   color: white;
-  display: inline-block;
   text-align: center;
+  padding-top: 10px;
   padding: 10px;
   background-color: black;
+  transition: ease 1s;
+}
+
+#backhome a:hover {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  transition: ease 0.5s;
+  background-color: black;
+  -webkit-box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
+-moz-box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
+box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
+}
+
+#soundcloudplayer {
+  align-items: center;
+  display: flow-root;
+  padding-left: 50%;
+  padding-right: 50%;
 }
 
 @keyframes dropbackhome {
