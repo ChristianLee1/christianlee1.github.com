@@ -27,15 +27,37 @@ html, body {
   font-size: 2em;
   letter-spacing: 0.75em;
   color: rgb(0,0,0);
-  margin-top: 24%;
+  margin-top: 20%;
   text-align: center;
+  animation: 2s cubic-bezier(.26,1.08,.19,1) expandtitle;
+}
+
+@keyframes expandtitle {
+  0% {
+    letter-spacing: 0em;
+    transform: translate(0px, 80px);
+  }
+  100% {
+    letter-spacing: 0.75em;
+  }
 }
 
 #title h3 {
-  font-size: 1.25em;
+  font-size: 1em;
   color: rgb(0,0,0);
-  margin-top: -10px;
+  display: block;
+  padding-top: 15px;
   text-align: center;
+  letter-spacing: 0.1em;
+  animation: 2s cubic-bezier(.26,1.08,.19,1) droptext;
+}
+
+@keyframes droptext {
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+  }
 }
 
 a,a:link,a:visited {
@@ -43,18 +65,18 @@ a,a:link,a:visited {
 }
 
 #selectorwrap {
+  padding-top: 30px;
   position: relative;
   text-align: center;
   display: block;
+  animation: 2.5s cubic-bezier(.26,1.08,.19,1) droptext;
 }
 
 #selectorwrap a {
   text-decoration: none;
-  color: white;
+  color: rgb(0,0,0);
   display: inline-block;
   text-align: center;
-  width: 120px;
-  height: 100px;
-  margin: 0px;
-  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
 }
