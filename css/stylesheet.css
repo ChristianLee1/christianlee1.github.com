@@ -15,6 +15,20 @@ html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  text-shadow: 1px 1px darkgrey;
+
+}
+
+#soundcloudlink {
+  display: inline;
+}
+
+#soundcloudlink a {
+  color: black;
+}
+
+#soundcloudlink a:hover {
+  color: #ff7700;
 
 }
 
@@ -29,7 +43,37 @@ html, body {
   color: rgb(0,0,0);
   margin-top: 400px;;
   text-align: center;
-  animation: 2s cubic-bezier(.26,1.08,.19,1) expandtitle;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) expandtitle;
+}
+
+#title h3 {
+  font-size: 1em;
+  color: rgb(0,0,0);
+  padding-top: 15px;
+  text-align: center;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) droptext;
+}
+
+#alttitle {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+
+#alttitle h2 {
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  color: rgb(0,0,0);
+  margin-top: 50px;;
+  text-align: center;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) expandtitle;
+}
+
+#alttitle h3 {
+  font-size: 1em;
+  color: rgb(0,0,0);
+  padding-top: 15px;
+  text-align: center;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) droptext;
 }
 
 #goldglow {
@@ -57,13 +101,6 @@ html, body {
   }
 }
 
-#title h3 {
-  font-size: 1em;
-  color: rgb(0,0,0);
-  padding-top: 15px;
-  text-align: center;
-  animation: 2s cubic-bezier(.26,1.08,.19,1) droptext;
-}
 
 @keyframes droptext {
   0% {
@@ -82,7 +119,7 @@ a,a:link,a:visited {
   position: relative;
   text-align: center;
   display: block;
-  animation: 2.5s cubic-bezier(.26,1.08,.19,1) droptext;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) droptext;
 }
 
 #selectorwrap a {
@@ -119,36 +156,37 @@ a,a:link,a:visited {
   position: relative;
   text-align: center;
   display: block;
-  animation: 2.5s cubic-bezier(.26,1.08,.19,1) dropbackhome;
+  animation: 0s cubic-bezier(.26,1.08,.19,1) dropbackhome;
 }
 
 #backhome a {
+  color: black;
   text-decoration: none;
-  color: white;
   text-align: center;
   padding-top: 10px;
   padding: 10px;
-  background-color: black;
   transition: ease 1s;
 }
 
 #backhome a:hover {
   text-decoration: none;
-  color: white;
   text-align: center;
   padding: 12px;
   transition: ease 0.5s;
-  background-color: black;
-  -webkit-box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
--moz-box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
-box-shadow: 10px 10px 136px -3px rgba(0,0,0,0.45);
+  -webkit-box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
+}
+
+#soundcloudwrap {
+  padding-top: 0px;
+  padding-left: 50%;
+  padding-right: 50%;
+  transform: translate(-250px, 0px);
 }
 
 #soundcloudplayer {
-  align-items: center;
-  display: flow-root;
-  padding-left: 50%;
-  padding-right: 50%;
+  padding-top: 20px;
 }
 
 @keyframes dropbackhome {
