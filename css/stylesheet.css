@@ -62,7 +62,6 @@ html, body {
   color: rgb(0,0,0);
   padding-top: 15px;
   text-align: center;
-  letter-spacing: 0.1em;
   animation: 2s cubic-bezier(.26,1.08,.19,1) droptext;
 }
 
