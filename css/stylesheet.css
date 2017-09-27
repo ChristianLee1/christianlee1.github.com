@@ -18,12 +18,12 @@ html, body {
   scroll-behavior: smooth;
 }
 
-#primary {
+#title {
   background-color: rgb(255, 255, 255);
   position: relative;
 }
 
-#primary h2 {
+#title h2 {
   font-size: 2em;
   letter-spacing: 0.75em;
   color: rgb(0,0,0);
@@ -31,7 +31,7 @@ html, body {
   text-align: center;
 }
 
-#primary h3 {
+#title h3 {
   font-size: 1.25em;
   color: rgb(0,0,0);
   margin-top: -10px;
@@ -40,4 +40,21 @@ html, body {
 
 a,a:link,a:visited {
   text-decoration: none;
+}
+
+#selectorwrap {
+  position: relative;
+  text-align: center;
+  display: block;
+}
+
+#selectorwrap a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  height: 100px;
+  margin: 0px;
+  background-color: black;
 }
