@@ -27,7 +27,7 @@ html, body {
   font-size: 2em;
   letter-spacing: 0.5em;
   color: rgb(0,0,0);
-  margin-top: 20%;
+  margin-top: 400px;;
   text-align: center;
   animation: 2s cubic-bezier(.26,1.08,.19,1) expandtitle;
 }
