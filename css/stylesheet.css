@@ -33,20 +33,19 @@ html, body {
 }
 
 #goldglow {
-  text-shadow: 0px 0px 10px gold;
+  text-shadow: 0px 0px 15px gold;
+  animation: 0.5s ease shadoweffectgold;
 }
 
-#pinkglow {
-  text-shadow: 0px 0px 10px #FF3BB7;
+@keyframes shadoweffectgold {
+  0% {
+    text-shadow: 0px 0px 200px gold;
+  }
+  100% {
+
+  }
 }
 
-#blueglow {
-  text-shadow: 0px 0px 10px #0B486B;
-}
-
-#greenglow {
-  text-shadow: 0px 0px 10px #06C448;
-}
 
 @keyframes expandtitle {
   0% {
@@ -95,6 +94,26 @@ a,a:link,a:visited {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+#goldhover:hover {
+  text-shadow: 2px 2px gold;
+  color: white;
+}
+
+#redhover:hover {
+  text-shadow: 2px 2px red;
+  color: white;
+}
+
+#bluehover:hover {
+  text-shadow: 2px 2px blue;
+  color: white;
+}
+
+#greenhover:hover {
+  text-shadow: 2px 2px green;
+  color: white;
 }
 
 #backhome {
