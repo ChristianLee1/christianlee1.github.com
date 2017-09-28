@@ -15,7 +15,7 @@ html, body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  text-shadow: 3px 3px lightgray;
+  text-shadow: 5px 5px #DCDCDC;
   animation: 1s ease textshadow;
 
 }
@@ -25,7 +25,7 @@ html, body {
     text-shadow: 0px 0px black;
   }
   100% {
-    text-shadow: 3px 3px lightgray;
+    text-shadow: 5px 5px #DCDCDC;
   }
 }
 
@@ -35,11 +35,12 @@ html, body {
 }
 
 #soundcloudlink a {
-  color: black;
+  color: #ff7700;
 }
 
 #soundcloudlink a:hover {
-  color: #ff7700;
+  color: white;
+  text-shadow: 3px 3px #ff7700 !important;
 
 }
 
@@ -184,9 +185,6 @@ a,a:link,a:visited {
   text-align: center;
   padding: 12px;
   transition: ease 0.5s;
-  -webkit-box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 131px -7px rgba(0,0,0,0.75);
 }
 
 #soundcloudwrap {
