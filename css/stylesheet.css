@@ -89,16 +89,16 @@ html, body {
 }
 
 #goldglow {
-  text-shadow: 0px 0px 15px gold;
-  animation: 0.5s ease shadoweffectgold;
+  text-shadow: 2px 2px 0px #ff7700;
+  animation: 0.5s ease shadoweffectorange;
 }
 
-@keyframes shadoweffectgold {
+@keyframes shadoweffectorange {
   0% {
-    text-shadow: 0px 0px 200px gold;
+    text-shadow: 0px 0px 0px #ff7700;
   }
   100% {
-
+    text-shadow: 2px 2px 0px #ff7700;
   }
 }
 
