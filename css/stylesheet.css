@@ -17,7 +17,6 @@ html, body {
   scroll-behavior: smooth;
   text-shadow: 5px 5px #DCDCDC;
   animation: 1s ease textshadow;
-
 }
 
 @keyframes textshadow {
@@ -45,6 +44,7 @@ html, body {
 }
 
 #title {
+  font-style: normal;
   background-color: rgb(255, 255, 255);
   position: relative;
 }
@@ -53,7 +53,7 @@ html, body {
   font-size: 2em;
   letter-spacing: 0.5em;
   color: rgb(0,0,0);
-  margin-top: 350px;;
+  margin-top: 23%;
   text-align: center;
   animation: 0s cubic-bezier(.26,1.08,.19,1) expandtitle;
 }
@@ -141,26 +141,25 @@ a,a:link,a:visited {
   text-align: center;
   padding-left: 15px;
   padding-right: 15px;
+  text-shadow: 2px 2px #DCDCDC;
 }
 
-#goldhover:hover {
-  text-shadow: 2px 2px gold;
-  color: white;
+#selectorwrap a {
+  text-decoration: none;
+}
+
+#selectorwrap a:hover {
+  text-decoration: line-through;
+  text-shadow: 0px 0px #DCDCDC;
 }
 
 #redhover:hover {
-  text-shadow: 2px 2px red;
-  color: white;
 }
 
 #bluehover:hover {
-  text-shadow: 2px 2px blue;
-  color: white;
 }
 
 #greenhover:hover {
-  text-shadow: 2px 2px green;
-  color: white;
 }
 
 #backhome {
