@@ -17,6 +17,7 @@ html, body {
   scroll-behavior: smooth;
   text-shadow: 5px 5px #DCDCDC;
   animation: 1s ease textshadow;
+  margin-top: 3%;
 }
 
 @keyframes textshadow {
@@ -53,7 +54,6 @@ html, body {
   font-size: 2em;
   letter-spacing: 0.5em;
   color: rgb(0,0,0);
-  margin-top: 23%;
   text-align: center;
   animation: 0s cubic-bezier(.26,1.08,.19,1) expandtitle;
 }
